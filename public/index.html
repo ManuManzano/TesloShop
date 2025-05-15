@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teslo API - README</title>
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: #d4d4d4;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 2rem;
+    }
+
+    .markdown-body {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1 {
+      border-bottom: 1px solid #444;
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+      color: #ffffff;
+    }
+
+    ol {
+      margin-left: 1.5rem;
+      padding-left: 0.5rem;
+    }
+
+    code {
+      background-color: #2d2d2d;
+      color: #c586c0;
+      padding: 0.2em 0.4em;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 0.95em;
+    }
+
+    pre {
+      background-color: #2d2d2d;
+      padding: 1rem;
+      overflow-x: auto;
+      border-radius: 6px;
+      margin: 1rem 0;
+    }
+
+    pre code {
+      color: #dcdcaa;
+      background: none;
+      padding: 0;
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+  <main class="markdown-body">
+    <h1>Teslo API</h1>
+    <ol>
+      <li>Clonar proyecto</li>
+      <li><code>yarn install</code></li>
+      <li>Clonar archivo <code>.env.template</code> y renombrarlo a <code>.env</code></li>
+      <li>Cambiar las variables de entorno</li>
+      <li>Levantar la base de datos</li>
+    </ol>
+    <pre><code>docker-compose up -d</code></pre>
+    <ol start="6">
+      <li>Levantar <code>yarn start:dev</code></li>
+    </ol>
+  </main>
+</body>
+</html>
